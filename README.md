@@ -1,8 +1,6 @@
-# OIL-LINK_PROJECT
-OIL-LINK: An AI-powered field synchronization layer connecting daily upstream oil &amp; gas progress logs (voice/text) with Primavera P6 baseline schedules, featuring NLP entity extraction and a human-in-the-loop reconciliation engine.
 # OIL-LINK (P6 / Field Sync Layer)
 
-**OIL-LINK** is an enterprise-grade field tracking and schedule reconciliation engine designed specifically for capital oil & gas and heavy industrial infrastructure projects. It bridges the operational divide between active field construction sites (e.g., Duliajan Block 4) and project planning controls by mapping natural-language supervisor progress logs directly to Primavera P6 (L5/L6) schedule activities.
+**OIL-LINK** is an enterprise-grade field tracking and schedule reconciliation engine designed specifically for capital oil & gas and heavy industrial infrastructure projects. It bridges the operational divide between active field construction sites and project planning controls by mapping natural-language supervisor progress logs directly to Primavera P6 (L5/L6) schedule activities.
 
 ---
 
@@ -61,4 +59,5 @@ Supervisor Audio / Transcript Note
                 │
                 ▼
 Supervisor Review (APPROVE / REJECT) ────► PATCH /api/v1/matches/{id}/review ──► P6 Schedule Sync
+
 
